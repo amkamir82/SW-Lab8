@@ -1,4 +1,4 @@
-package org.example.graphTravelers;
+package main.java.org.example.graphTravelers;
 
 import java.util.*;
 
