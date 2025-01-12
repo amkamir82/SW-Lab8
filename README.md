@@ -26,7 +26,8 @@
 
 در این مرحله، کلاس GraphAdapter را می‌نویسیم که واسط `<Graph<Integer, String` را پیاده‌سازی می‌کند. این کلاس درون خود یک شئ از نوع  `<SparseMultigraph<Integer, String`  دارد و فراخوانی‌های واسط Graph را به آن منتقل می‌کند.
 
-image
+![image](https://github.com/user-attachments/assets/b4c144c2-2f1e-4457-a475-a426fde66438)
+
 
 - شیء adaptee همان گراف اصلی Jung است.  
 - هر متد واسط Graph را فراخوانی می‌کنیم و درخواست مربوطه را به adaptee منتقل می‌کنیم.  
