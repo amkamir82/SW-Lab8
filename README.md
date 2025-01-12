@@ -37,7 +37,8 @@ image
 
 در این گام، کلاس‌های BfsGraphTraverser و DfsGraphTraverser به‌جای ارجاع مستقیم به SparseMultigraph`، به واسط `<Graph<Integer, String وابسته می‌شوند.
 
-image
+![image](https://github.com/user-attachments/assets/eb82df7e-3ccd-493e-9549-8c55a64a64cc)
+
 
 
 با این تغییرات، هر دو کلاس تنها نیازمند واسط Graph هستند و پیاده‌سازی خاص کتابخانه را مستقیماً نمی‌بینند.
@@ -48,7 +49,8 @@ image
 
 در نهایت، در کلاس Main از GraphAdapter استفاده می‌کنیم تا شیء Graph<Integer, String> را بسازیم و سپس متدهای مختلف آن را فراخوانی کنیم.
 
-image
+![image](https://github.com/user-attachments/assets/7b7d2f95-2728-48a9-8a6c-d26ac1ea8e01)
+
 
 
 در اینجا دیگر کلاس Main هم کد خودش را بر اساس واسط Graph نوشته است، و داخلی‌ترین جزئیات کتابخانهٔ Jung فقط در GraphAdapter پنهان شده‌اند.
